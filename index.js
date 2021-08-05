@@ -34,7 +34,7 @@ var MINIMUM_JQUERY_VERSION = '1.8.3'
 var RUN_ASSERTS = false
 var START_FEN = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR'
 var START_POSITION = fenToObj(START_FEN)
-var CLICK_MOVE = false,
+var CLICK_MOVE = false
 
 // default animation speeds
 var DEFAULT_APPEAR_SPEED = 200
