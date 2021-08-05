@@ -1861,7 +1861,7 @@ function initDOM() {
 
   // set the size and draw the board
   widget.resize()
-}
+
 
 // -------------------------------------------------------------------------
 // Initialization
@@ -1874,7 +1874,7 @@ addEvents()
 // return the widget object
 return widget
 
-}// end constructor
+// end constructor
 
 // TODO: do module exports here
 window['Chessboard'] = constructor
@@ -1886,3 +1886,4 @@ window['ChessBoard'] = window['Chessboard']
 window['Chessboard']['fenToObj'] = fenToObj
 window['Chessboard']['objToFen'] = objToFen
 
+}
