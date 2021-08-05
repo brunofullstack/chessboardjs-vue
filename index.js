@@ -1873,7 +1873,8 @@ addEvents()
 
 // return the widget object
 return widget
- // end constructor
+
+}// end constructor
 
 // TODO: do module exports here
 window['Chessboard'] = constructor
